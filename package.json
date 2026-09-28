@@ -1,0 +1,12 @@
+{
+  "name": "io.tsukasa.millennium.personal-calendar",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "starlight watch",
+    "build": "bun -e \"require('node:fs').mkdirSync('dist', { recursive: true })\" && starlight pack"
+  },
+  "devDependencies": {
+    "@steambrew/starlight": "1.1.6"
+  }
+}
