@@ -1,7 +1,7 @@
 [plugin]
 id = "io.tsukasa.millennium.personal-calendar"
 name = "Personal Calendar"
-version = "0.0.1"
+version = "0.0.2"
 author = "tsukasa"
 description = "Adds a link to Your Personal Calendar between Discovery Queue and Wishlist in the Store menu."
 
