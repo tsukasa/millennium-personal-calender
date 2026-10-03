@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "io.tsukasa.millennium.personal-calendar",
+      "name": "io.tsukasa.personal-calendar",
       "devDependencies": {
         "@steambrew/starlight": "1.1.6",
       },

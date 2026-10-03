@@ -13,7 +13,7 @@ The plugin uses the native translations already present in the Steam client, so 
 
 ## How to Install
 
-1. Go to the [Releases page](../../releases/latest) and download the latest `io.tsukasa.millenium.personal-calendar.star` file.
+1. Go to the [Releases page](../../releases/latest) and download the latest `io.tsukasa.personal-calendar.star` file.
 2. Place the `.star` file in your Millennium plugin folder.
 3. Open your Millennium settings and make sure the "Personal Calendar" plugin is visible and enabled.
 
@@ -27,7 +27,7 @@ bun install --frozen-lockfile
 bun run build
 ```
 
-The Millennium plugin package will be created at `dist/io.tsukasa.millennium.personal-calendar.star`.
+The Millennium plugin package will be created at `dist/io.tsukasa.personal-calendar.star`.
 Copy the `.star` file to your `millennium/plugins` folder, then enable the plugin in Millennium's settings.
 
 

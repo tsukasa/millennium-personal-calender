@@ -19,14 +19,14 @@ jobs:
       - name: Build plugin
         run: |
           bun install --frozen-lockfile
-          bun run build
-          test -s dist/io.tsukasa.millennium.personal-calendar.star
+          bun run relbuild
+          test -s dist/io.tsukasa.personal-calendar.star
 
       - name: Save build artifact
         uses: actions/upload-artifact@v7
         with:
           name: personal-calendar-${{ github.run_id }}
-          path: dist/io.tsukasa.millennium.personal-calendar.star
+          path: dist/io.tsukasa.personal-calendar.star
           if-no-files-found: error
 
       - name: Publish version release
@@ -58,7 +58,7 @@ jobs:
           fi
 
           gh release create "$TAG" \
-            dist/io.tsukasa.millennium.personal-calendar.star \
+            dist/io.tsukasa.personal-calendar.star \
             --verify-tag \
-            --title "Personal Calendar $TAG" \
+            --title "Personal Calendar Plugin $TAG" \
             --notes-file release-notes.md

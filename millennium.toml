@@ -1,5 +1,5 @@
 [plugin]
-id = "io.tsukasa.millennium.personal-calendar"
+id = "io.tsukasa.personal-calendar"
 name = "Personal Calendar"
 version = "0.0.2"
 author = "tsukasa"
@@ -13,7 +13,7 @@ entry = "backend/main.lua"
 sources = ["backend/**/*.lua"]
 
 [compiler]
-output_path = "dist/io.tsukasa.millennium.personal-calendar.star"
+output_path = "dist/io.tsukasa.personal-calendar.star"
 
 [dev]
 auto_restart = true
